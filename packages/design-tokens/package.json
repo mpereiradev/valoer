@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Fonte única dos design tokens da Valoer (cor, tipografia, espaçamento, raio, motion) + preset Tailwind.",
+  "description": "Fonte única dos design tokens da Valoer (cor, tipografia, espaçamento, raio, motion) — valores JS + @theme do Tailwind v4.",
   "exports": {
     "./tokens": "./src/tokens.js",
-    "./tailwind-preset": "./src/tailwind-preset.js"
+    "./theme.css": "./src/theme.css"
   },
   "files": ["src"]
 }

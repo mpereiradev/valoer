@@ -1,5 +1,6 @@
-// Fonte única de verdade dos tokens da Valoer Open Banking.
-// Espelha docs/DESIGN-TOKENS.md. Alterou aqui -> reflete no site inteiro via preset Tailwind.
+// Valores dos tokens da Valoer em JS (para consumo programático / referência).
+// Espelha docs/DESIGN-TOKENS.md e src/theme.css (que é a interface do Tailwind v4).
+// Ao alterar um token, atualize também theme.css para refletir no site.
 
 export const color = {
   // Marinho (marca / superfícies escuras) — derivado do logo
